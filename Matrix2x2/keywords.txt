@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map for Matrix2x2
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Matrix2x2	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Copy2x2	KEYWORD2
+Zero2x2	KEYWORD2
+Eye2x2	KEYWORD2
+ScaledEye2x2	KEYWORD2
+Scale2x2	KEYWORD2
+ScaledCopy2x2	KEYWORD2
+Add2x2	KEYWORD2
+Subtract2x2	KEYWORD2
+TransposeCopy2x2	KEYWORD2
+Diag2x2	KEYWORD2
+Transpose2x2	KEYWORD2
+Multiply2x2	KEYWORD2
+VectorMultiply2x2	KEYWORD2
+Invert2x2	KEYWORD2
+Determinant2x2	KEYWORD2    
+
+#######################################
+# Constants (LITERAL1)
+#######################################

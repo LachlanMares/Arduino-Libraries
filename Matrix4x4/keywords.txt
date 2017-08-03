@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map for Matrix4x4
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Matrix4x4	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Copy4x4	KEYWORD2
+Zero4x4	KEYWORD2
+Eye4x4	KEYWORD2
+ScaledEye4x4	KEYWORD2
+Scale4x4	KEYWORD2
+ScaledCopy4x4	KEYWORD2
+Add4x4	KEYWORD2
+Subtract4x4	KEYWORD2
+TransposeCopy4x4	KEYWORD2
+Diag4x4	KEYWORD2
+Transpose4x4	KEYWORD2
+Multiply4x4	KEYWORD2
+VectorMultiply4x4	KEYWORD2
+Invert4x4	KEYWORD2
+Determinant4x4	KEYWORD2    
+
+#######################################
+# Constants (LITERAL1)
+#######################################

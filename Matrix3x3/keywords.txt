@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map for Matrix3x3
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Matrix3x3	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Copy3x3	KEYWORD2
+Zero3x3	KEYWORD2
+Eye3x3	KEYWORD2
+ScaledEye3x3	KEYWORD2
+Scale3x3	KEYWORD2
+ScaledCopy3x3	KEYWORD2
+Add3x3	KEYWORD2
+Subtract3x3	KEYWORD2
+TransposeCopy3x3	KEYWORD2
+Diag3x3	KEYWORD2
+Transpose3x3	KEYWORD2
+Multiply3x3	KEYWORD2
+VectorMultiply3x3	KEYWORD2
+Invert3x3	KEYWORD2
+Determinant3x3	KEYWORD2    
+
+#######################################
+# Constants (LITERAL1)
+#######################################

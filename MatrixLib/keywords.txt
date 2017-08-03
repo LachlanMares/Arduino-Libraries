@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map for MatrixLib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MatrixLib	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Copy	KEYWORD2
+Zero	KEYWORD2
+Eye	KEYWORD2
+ScaledEye	KEYWORD2
+Scale	KEYWORD2
+ScaledCopy	KEYWORD2
+Add	KEYWORD2
+Subtract	KEYWORD2
+TransposeCopy	KEYWORD2
+Transpose	KEYWORD2
+MultiplySquare	KEYWORD2
+Multiply	KEYWORD2
+VectorMultiply	KEYWORD2
+Determinant	KEYWORD2
+Inverse	KEYWORD2  
+
+#######################################
+# Constants (LITERAL1)
+#######################################
