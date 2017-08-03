@@ -150,45 +150,6 @@ void MCP2515::ReadMsg(unsigned int* Id,unsigned int* Ext,unsigned char* Len,void
   }
 }
 
-void MCP2515::SetMessageFiltering(unsigned char MsgTypes,unsigned char Rollover,unsigned char FilterNum,unsigned int AcceptanceFilter,unsigned int AcceptanceMask)
-{
-  unsigned char _AfSidl,_AfSidh,_AmSidl,_AmSidh;
-
-  switch(FilterNum){
-    case RXB0_USE_RXF0:
-        if(MsgTypes == RXB0_STD_MSG_ONLY )
-        {
-            _AfSidh = (AcceptanceFilter >> 3);
-            _AfSidl = (AcceptanceFilter << 5) & 0xE0;
-            _AmSidh = (AcceptanceMask >> 3);
-            _AmSidl = (AcceptanceMask << 5) & 0xE0;
-            SetRegister(MCP_RXB0CTRL,MsgTypes | Rollover | FilterNum);
-            SetRegister(MCP_RXF0SIDH,_AfSidh);
-            SetRegister(MCP_RXF0SIDL,_AfSidl);
-            SetRegister(MCP_RXM0SIDH,_AmSidh);
-            SetRegister(MCP_RXM0SIDL,_AmSidl);
-        }
-        break;
-    case RXB0_USE_RXF1:
-        if(MsgTypes == RXB0_STD_MSG_ONLY )
-        {
-
-            _AfSidh = (AcceptanceFilter >> 3);
-            _AfSidl = (AcceptanceFilter << 5) & 0xE0;
-            _AmSidh = (AcceptanceMask >> 3);
-            _AmSidl = (AcceptanceMask << 5) & 0xE0;
-            SetRegister(MCP_RXB0CTRL,MsgTypes | Rollover | FilterNum);
-            SetRegister(MCP_RXF1SIDH,_AfSidh);
-            SetRegister(MCP_RXF1SIDL,_AfSidl);
-            SetRegister(MCP_RXM1SIDH,_AmSidh);
-            SetRegister(MCP_RXM1SIDL,_AmSidl);
-        }
-        break;
-  }
-}
-
-
-
 unsigned char MCP2515::CheckReceiveBuffers(){
   unsigned char _Status = ReadRegister(MCP_CANINTF);
   unsigned char _NumOfMsgs = 0;
