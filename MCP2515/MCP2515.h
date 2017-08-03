@@ -12,7 +12,6 @@ public:
         void StartSPI();
         boolean SendMsg(unsigned int,unsigned int,unsigned char,void*);
         void ReadMsg(unsigned int*,unsigned int*,unsigned char*,void*);
-        void SetMessageFiltering(unsigned char,unsigned char,unsigned char,unsigned int,unsigned int);
         unsigned char CheckReceiveBuffers();
         unsigned char CheckError();
 
