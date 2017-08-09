@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map for Butterworth
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Butterworth	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Init	KEYWORD2
+UpdateFilter	KEYWORD2
+Output	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+M_PI	LITERAL1
+TWO_M_PI	LITERAL1
+SQRT2	LITERAL1
+
