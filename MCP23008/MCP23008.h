@@ -39,28 +39,35 @@ public:
         MCP23008();
         MCP23008(uint8_t);
         void StartI2C();
-        void SetDirection(uint8_t);
-        void SetDirectionBit(uint8_t,boolean);
-        void SetPullUp(uint8_t);
+        
+        void pinMode(uint8_t,uint8_t);
+        void digitalWrite(uint8_t,uint8_t);
+        bool digitalRead(uint8_t);
+        
         void SetPullUpBit(uint8_t,boolean);
-        void SetPolarity(uint8_t);
-        void SetBitPolarity(uint8_t,boolean);
-        void EnableInterrupt(uint8_t);
-        void EnableInterruptBit(uint8_t,boolean);
-        void SetInterruptControl(uint8_t);
+        void SetDirectionBit(uint8_t,boolean);
+        void SetPolarityBit(uint8_t,boolean);
+        void EnableInterruptBit(uint8_t,boolean); 
         void SetInterruptControlBit(uint8_t,boolean);
-        uint8_t ReadIOBank();
         boolean ReadIOBit(uint8_t);
-        void WriteIOBank(uint8_t);
-        void WriteIOBit(uint8_t,boolean);
-
+        void WriteIOBit(uint8_t,boolean);      
+        
+        void SetDirection(uint8_t);
+        void SetPullUp(uint8_t);     
+        void SetPolarity(uint8_t);
+        void EnableInterrupt(uint8_t);   
+        void SetInterruptControl(uint8_t);
+        uint8_t ReadGPIO();
+        void WriteGPIO(uint8_t);
+           
+        
 private:
         boolean ReadRegisterBit(uint8_t,uint8_t);
         void WriteRegisterBit(uint8_t,uint8_t,boolean);
-        uint8_t ReadRegister(uint8_t);
-        void WriteRegister(uint8_t,uint8_t);
-
-        uint8_t _Addr;
+        uint8_t ReadRegister(uint8_t);     
+        void WriteRegister(uint8_t,uint8_t);  
+    
+        uint8_t _Addr;        
 };
 
 #endif
