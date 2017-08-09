@@ -12,22 +12,24 @@ MCP23008	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-Init	KEYWORD2
 StartI2C	KEYWORD2
-SetDirection	KEYWORD2
-SetDirectionBit	KEYWORD2
-SetPullUp	KEYWORD2
+pinMode KEYWORD2
+digitalWrite  KEYWORD2
+digitalRead KEYWORD2
 SetPullUpBit	KEYWORD2
-SetPolarity	KEYWORD2
+SetDirectionBit	KEYWORD2
 SetBitPolarity	KEYWORD2
-EnableInterrupt	KEYWORD2   
-EnableInterruptBit	KEYWORD2     
-SetInterruptControl	KEYWORD2
+EnableInterruptBit	KEYWORD2
 SetInterruptControlBit	KEYWORD2
-ReadIOBank	KEYWORD2
 ReadIOBit	KEYWORD2
-WriteIOBank	KEYWORD2
 WriteIOBit	KEYWORD2
+SetDirection	KEYWORD2
+SetPullUp	KEYWORD2
+SetPolarity	KEYWORD2
+EnableInterrupt	KEYWORD2     
+SetInterruptControl	KEYWORD2
+ReadGPIO	KEYWORD2
+WriteGPIO KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
