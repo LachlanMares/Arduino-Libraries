@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map for MCP3304
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MCP3304	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readADC	KEYWORD2
+readSingle	KEYWORD2
+readDifferential	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SINGLE_MODE	LITERAL1
+DIFF_MODE	LITERAL1
