@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map for Relay
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DigitalOut	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+SetInitial	KEYWORD2
+On	KEYWORD2
+Off	KEYWORD2
+SetOnFor	KEYWORD2
+SetOffFor	KEYWORD2
+Update	KEYWORD2
+Status	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+
