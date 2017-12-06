@@ -1,0 +1,45 @@
+#######################################
+# Syntax Coloring Map for MCP23017
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MCP23017	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Begin	KEYWORD2
+SetDirection	KEYWORD2
+SetDirectionBit	KEYWORD2
+SetPullUp	KEYWORD2
+SetPullUpBit	KEYWORD2
+SetPolarity	KEYWORD2
+SetBitPolarity	KEYWORD2
+EnableInterrupt	KEYWORD2   
+EnableInterruptBit	KEYWORD2     
+SetInterruptControl	KEYWORD2
+SetInterruptControlBit	KEYWORD2
+ReadIOBank	KEYWORD2
+ReadIOBit	KEYWORD2
+WriteIOBank	KEYWORD2
+WriteIOBit	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MCP_OUTPUTS	LITERAL1
+MCP_INPUTS	LITERAL1
+MCP_PULLUP_ALL	LITERAL1
+MCP23017_ADDR_0	LITERAL1
+MCP23017_ADDR_1	LITERAL1
+MCP23017_ADDR_2	LITERAL1
+MCP23017_ADDR_3	LITERAL1
+MCP23017_ADDR_4	LITERAL1
+MCP23017_ADDR_5	LITERAL1
+MCP23017_ADDR_6	LITERAL1
+MCP23017_ADDR_7	LITERAL1
