@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map for MCP_Counter
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MCP_Counter	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Initialise	KEYWORD2
+ReadCounter16Bit	KEYWORD2
+ReadCounter32Bit	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+GAL	LITERAL1
+GAU	LITERAL1
+GBL	LITERAL1
+GBU	LITERAL1
+RCLK	LITERAL1
+CCLR	LITERAL1
+
+
+
